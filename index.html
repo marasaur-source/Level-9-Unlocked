@@ -318,7 +318,7 @@ function showQuiz(i) {
   if (g.type === "text") {
     const input = document.createElement("textarea");
     input.id = "writtenAnswer";
-    input.placeholder = "Type your answer here, baby... 💗";
+    input.placeholder = "Type your answer here...";
     input.rows = 4;
     input.className = "answer-input";
     input.style.width = "100%";
@@ -339,7 +339,7 @@ function showQuiz(i) {
       input.disabled = true;
       submit.disabled = true;
       $("feedback").textContent =
-        "Your FIRST answer is safe, baby! 💌🔒";
+        "Your FIRST answer is safe! 💌🔒";
       $("continueBtn").classList.remove("hidden");
       answeredCorrectly = true;
     }
@@ -349,7 +349,7 @@ function showQuiz(i) {
 
       if (!answer) {
         $("feedback").textContent =
-          "BABYYY, answer me first! HAHAHA 🥹💗";
+          "ALY, answer me first HAHAHA";
         return;
       }
 
@@ -398,11 +398,8 @@ function showQuiz(i) {
 }
 
 const penalties = [
-  "PENALTY! 😤 Send your gorgeous wife 3 virtual kisses before trying again! 💋💋💋",
-  "AYAN KASI, ALY'S BOYFRIEND! 😭 Give Mara 1 virtual forehead kiss. Then try again! 😚",
-  "HULI KA! 🚨 Say 'Mara is always right' three times before your next attempt. HAHAHA 👑",
-  "WRONG ANSWER, BABY! 🥹 Your penalty: one extra lambing session for your wife! 💗",
-  "OOPSY! 💀 Pay a fine of 5 virtual hugs to your gorgeous wife. 🫂"
+  "PENALTY! 😤 Send your gorgeous wife 1 Tiktok dance after trying again!",
+  "HULI KA! 🚨 Say 'Mara is always right' three times before your next attempt HAHAHA",
 ];
 
 function chooseAnswer(idx, button) {
